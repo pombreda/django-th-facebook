@@ -1,0 +1,6 @@
+exclude th_facebook/local_settings.py
+include *.txt *.rst
+recursive-include th_facebook *.html
+recursive-include th_facebook/templates *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
