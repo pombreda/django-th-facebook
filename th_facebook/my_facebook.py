@@ -128,7 +128,7 @@ class ServiceFacebook(ServicesMgr):
         except KeyError:
             return '/'
 
-        return 'dummy/callback.html'
+        return 'facebook/callback.html'
 
 """
     if the external API does not provide the Oauth workflow
