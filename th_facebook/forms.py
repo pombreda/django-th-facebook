@@ -13,9 +13,9 @@ class FacebookForm(forms.ModelForm):
 
     class Meta:
         model = Facebook
-        fields = ('tag',)
+        fields = ('title',)
         widgets = {
-            'tag': TextInput(attrs={'class': 'form-control'}),
+            'title': TextInput(attrs={'class': 'form-control'}),
         }
 
 

@@ -6,9 +6,11 @@ from django_th.models.services import Services
 
 class Facebook(Services):
 
-    # put whatever you need  here 
-    
-    # but keep at least this one 
+    status = models.CharField(max_length=80)
+    url = models.URLField(max_length=255)
+    message = models.CharField(max_length=80)
+
+    tag = models.CharField(max_length=80, blank=True)
     trigger = models.ForeignKey('TriggerService')
 
     class Meta:

@@ -1,1 +1,2 @@
 django_th==0.9.0
+facebook-sdk==0.4.0
