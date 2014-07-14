@@ -14,7 +14,7 @@ def reqs(*f):
 install_requires = reqs('requirements.txt')
 
 setup(
-    name='django_th_dummy',
+    name='django_th_facebook',
     version=version,
     description='Django Trigger Happy : This handles the Facebook service',
     author='Olivier Demah',
@@ -30,7 +30,7 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 2',
         'Framework :: Django',
     ],
     install_requires=install_requires,

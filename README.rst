@@ -8,6 +8,7 @@ This project is a Facebook module for Django Trigger Happy
 Requirements :
 ==============
 * django_th: 0.9.0
+* facebook-sdk 0.4.0
 
 
 Installation:
@@ -65,8 +66,11 @@ TH_FACEBOOK is the settings you will need to be able to add/read data in/from Fa
 .. code:: python
 
     TH_FACEBOOK = {
-        'consumer_key': 'abcdefghijklmnopqrstuvwxyz',
+        'app_id': '1234456576',
+        'app_secret': 'abcdefghjkilmonpqert',
+        'permissions': {'email','publish_actions','read_stream'}
     }
+
 
 Setting up : Administration
 ===========================
