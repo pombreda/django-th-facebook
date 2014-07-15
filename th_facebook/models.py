@@ -6,7 +6,7 @@ from django_th.models.services import Services
 
 class Facebook(Services):
 
-    status = models.CharField(max_length=80)
+    fb_status = models.CharField(max_length=80)
     url = models.URLField(max_length=255)
     message = models.CharField(max_length=80)
 
